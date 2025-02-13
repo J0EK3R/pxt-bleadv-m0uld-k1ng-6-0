@@ -138,7 +138,7 @@ namespace MK6
     //% blockId=mk6_setchanneloffset
     //% block="set $module $channel offset to $offset_pct"
     //% group="M0uld K1ng Module 6.0 - finetune"
-    //% shim=mk_module_4_0::setChannelOffset
+    //% shim=mk_module_6_0::setChannelOffset
     //% offset_pct.min=0 
     //% offset_pct.max=100 
     //% offset_pct.defl=0
