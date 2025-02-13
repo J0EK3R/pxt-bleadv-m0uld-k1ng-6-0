@@ -1,19 +1,24 @@
 {
     "name": "BLEAdv M0uld K1ng Module 6.0",
-    "description": "",
+    "version": "0.0.6",
+    "description": "Control Bluetooth M0uld K1ng Module 6.0. micro:bit (V2) only.",
     "dependencies": {
         "core": "*",
-        "radio": "*",
-        "microphone": "*"
+        "pxt-bleadv-common": "github:J0EK3R/pxt-bleadv-common#v0.0.2"
     },
     "files": [
-        "main.blocks",
         "main.ts",
+        "mk_module_6_0.cpp",
+        "Module_6_0_Service.cpp",
+        "Module_6_0_Service.h",
+        "enums.d.ts",
+        "shims.d.ts",
         "README.md"
     ],
     "testFiles": [
         "test.ts"
     ],
+    "preferredEditor": "blocksprj",
     "targetVersions": {
         "target": "7.0.57",
         "targetId": "microbit"
@@ -21,5 +26,7 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "disablesVariants": [
+        "mbdal"
+    ]
 }
