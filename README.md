@@ -3,7 +3,7 @@
 
 # pxt-bleadv-m0uld-k1ng-6-0
 
-A Microsoft Makecode extension for micro:bit `(V2) only` to control Bluetooth `M0uld K1ng Module 6.0`.
+A Microsoft Makecode extension for micro:bit `(V2) only` to control Bluetooth `Mould King Module 6.0`.
 
 ## Use as Extension
 
@@ -16,8 +16,8 @@ This repository can be added as an **extension** in MakeCode.
 
 ## Basic usage
 
-On start first init your `M0uld K1ng Module 6.0`.
-This starts Bluetooth Advertising (sending data one-way) the needed connect telegrams to switch the `M0uld K1ng Module` in Bluetooth mode.
+On start first init your `Mould King Module 6.0`.
+This starts Bluetooth Advertising (sending data one-way) the needed connect telegrams to switch the `Mould King Module` in Bluetooth mode.
 
 ```blocks
 MK6.init(MK6.Module.M1)
